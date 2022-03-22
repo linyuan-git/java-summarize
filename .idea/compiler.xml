@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java-base" />
+        <module name="java-collection" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="java-base" target="1.5" />
+      <module name="java-base" target="1.8" />
+      <module name="java-collection" target="1.8" />
       <module name="java-summarize" target="1.5" />
     </bytecodeTargetLevel>
   </component>
